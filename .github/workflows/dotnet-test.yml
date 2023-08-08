@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DOTNET_CLI_TELEMETRY_OPTOUT: 1
-      DISASM_CLIENT_FILES: "${GITHUB_WORKSPACE}/Client"
+      DISASM_CLIENT_FILES: "/home/runner/work/Disasm.Net/Disasm.Net/Client"
 
     steps:
     - name: Checkout
