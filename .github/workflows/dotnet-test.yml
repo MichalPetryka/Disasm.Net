@@ -2,7 +2,7 @@ name: .NET Tests
 on: [push, pull_request]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     env:
       DOTNET_CLI_TELEMETRY_OPTOUT: 1
