@@ -30,7 +30,7 @@
     <ProjectReference Include="..\Disasm.Net.Core\Disasm.Net.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="8.0.0-preview.6.23329.11">
+    <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="8.0.0-preview.7.23375.9">
       <!-- The SPA Proxy is only used at development time -->
       <Publish>false</Publish>
     </PackageReference>
