@@ -28,7 +28,7 @@ jobs:
       run: dotnet publish Disasm.Net.Server/Disasm.Net.Server.csproj -r ${{ matrix.target }} -c release -o "${{ github.workspace }}/builds/${{ matrix.target }}"
 
     - name: Upload ${{ matrix.target }} Build
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Disasm.Net.Server-${{ matrix.target }}
         path: ${{ github.workspace }}/builds/${{ matrix.target }}
